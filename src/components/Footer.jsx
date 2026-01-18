@@ -22,7 +22,13 @@ const Footer = () => {
             </div>
             <div className="max-w-6xl mx-auto mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between text-xs text-gray-600">
                 <p>© 2026 Mohit Kumar. All rights reserved.</p>
-                <p>Built with React, Tailwind & Framer Motion</p>
+                <div className="flex gap-4">
+                    <a href="https://github.com/MOHIT29-dev/Mohit_Portfolio" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                        View Source
+                    </a>
+                    <span>|</span>
+                    <p>Built with React, Tailwind & Framer Motion</p>
+                </div>
             </div>
         </footer>
     );
