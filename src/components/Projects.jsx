@@ -21,7 +21,8 @@ const projects = [
         category: "Design & Dev",
         description: "Minimalist portfolio showcasing projects and skills.",
         tools: "React, Tailwind, Framer Motion",
-        color: "bg-zinc-800"
+        color: "bg-zinc-800",
+        link: "https://github.com/MOHIT29-dev/Mohit_Portfolio"
     }
 ];
 
@@ -62,6 +63,7 @@ const Projects = () => {
                             transition={{ delay: index * 0.1 }}
                             onMouseEnter={() => setActiveProject(index)}
                             onMouseLeave={() => setActiveProject(null)}
+                            onClick={() => project.link && window.open(project.link, '_blank')}
                             data-hover
                         >
                             <div className="mb-4 md:mb-0">
