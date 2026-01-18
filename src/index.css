@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+@layer base {
+  html {
+    @apply antialiased scroll-smooth;
+    cursor: none;
+  }
+
+  body {
+    @apply bg-black text-white font-sans selection:bg-white selection:text-black;
+  }
+}
+
+@media (pointer: coarse) {
+  html {
+    cursor: auto;
+  }
+}
