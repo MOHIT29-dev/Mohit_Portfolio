@@ -14,7 +14,8 @@ const projects = [
         category: "Interactive Web",
         description: "Cuberto-inspired interactive website with magnetic cursor interactions.",
         tools: "GSAP, Shery.js, HTML/CSS",
-        color: "bg-purple-900"
+        color: "bg-purple-900",
+        link: "https://github.com/MOHIT29-dev/Oculto"
     },
     {
         title: "Portfolio Website",
