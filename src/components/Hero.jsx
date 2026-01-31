@@ -19,7 +19,7 @@ const Hero = () => {
                         initial={{ scale: 0, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
                         transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-                        className="w-40 h-40 md:w-64 md:h-64 rounded-full overflow-hidden border-2 border-white/20 flex-shrink-0"
+                        className="w-48 h-48 md:w-80 md:h-80 rounded-full overflow-hidden border-2 border-white/20 flex-shrink-0"
                     >
                         <img
                             src={profileImg}
