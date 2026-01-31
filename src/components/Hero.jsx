@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import profileImg from '../assets/profile.jpg';
 
 const Hero = () => {
     return (
@@ -21,7 +22,7 @@ const Hero = () => {
                         className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-2 border-white/20 flex-shrink-0"
                     >
                         <img
-                            src="/src/assets/profile.jpg"
+                            src={profileImg}
                             alt="Mohit"
                             className="w-full h-full object-cover"
                         />
