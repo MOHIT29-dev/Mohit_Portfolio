@@ -4,14 +4,29 @@ const Hero = () => {
     return (
         <section className="h-screen flex flex-col justify-center px-8 pt-20">
             <div className="max-w-6xl mx-auto w-full">
-                <motion.h1
-                    initial={{ y: 100, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-                    className="text-[12vw] leading-[0.9] font-display font-bold tracking-tighter uppercase mb-4"
-                >
-                    Mohit Kumar
-                </motion.h1>
+                <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-4">
+                    <motion.h1
+                        initial={{ y: 100, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+                        className="text-[12vw] leading-[0.9] font-display font-bold tracking-tighter uppercase"
+                    >
+                        Mohit Kumar
+                    </motion.h1>
+
+                    <motion.div
+                        initial={{ scale: 0, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
+                        className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-2 border-white/20 flex-shrink-0"
+                    >
+                        <img
+                            src="/src/assets/profile.jpg"
+                            alt="Mohit"
+                            className="w-full h-full object-cover"
+                        />
+                    </motion.div>
+                </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end w-full border-t border-white/20 pt-6">
                     <motion.p
