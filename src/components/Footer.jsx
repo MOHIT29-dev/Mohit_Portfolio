@@ -1,5 +1,3 @@
-import { motion } from 'framer-motion';
-
 const Footer = () => {
     return (
         <footer id="contact" className="py-20 px-8 border-t border-white/10 bg-black text-center md:text-left">
