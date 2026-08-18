@@ -23,7 +23,7 @@ const Experience = () => {
                         <div className="border-l border-white/20 pl-6 space-y-2">
                             <h4 className="text-xl font-medium">Jaypee University of Information Technology</h4>
                             <p className="text-gray-400">B.Tech in Computer Science and Engineering (2022 – 2026)</p>
-                            <p className="text-sm text-gray-500">GPA: 7.67 / 10.0</p>
+                            <p className="text-sm text-gray-500">GPA: 7.83 / 10.0</p>
                         </div>
                     </motion.div>
 
