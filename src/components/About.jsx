@@ -20,7 +20,7 @@ const About = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
-                        I am a Computer Science Engineering undergraduate at Jaypee University of Information Technology (2022–2026).
+                        I am a Computer Science Engineering undergraduate at Jaypee University of Information Technology (2022 – 2026).
                     </motion.p>
 
                     <motion.p

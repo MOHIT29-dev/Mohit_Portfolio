@@ -10,12 +10,12 @@ const projects = [
         color: "bg-blue-900"
     },
     {
-        title: "Oculto",
-        category: "Interactive Web",
-        description: "Cuberto-inspired interactive website with magnetic cursor interactions.",
-        tools: "GSAP, Shery.js, HTML/CSS",
-        color: "bg-purple-900",
-        link: "https://github.com/MOHIT29-dev/Oculto"
+       title: "Real-Time Bus Tracking System",
+       category: "Full Stack",
+       description: "Full-stack real-time bus tracking system with live vehicle updates and low-latency communication.",
+       tools: "React, Node.js, Socket.io, WebSockets",
+       color: "bg-purple-900",
+       link: "https://github.com/MOHIT29-dev/bus-tracker"
     },
     {
         title: "Portfolio Website",

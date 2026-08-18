@@ -1,18 +1,26 @@
 import { motion } from 'framer-motion';
 
 const skillsData = [
-    {
-        category: "Languages",
-        items: ["C++", "C", "Python", "JavaScript", "SQL"]
-    },
-    {
-        category: "Frontend",
-        items: ["React", "Tailwind CSS", "GSAP", "Framer Motion", "HTML/CSS"]
-    },
-    {
-        category: "Backend & Tools",
-        items: ["Node.js", "MongoDB", "Figma", "Git", "OpenCV"]
-    }
+  {
+    category: "Languages",
+    items: ["C++", "C", "Python", "JavaScript", "SQL"]
+  },
+  {
+    category: "Frontend",
+    items: ["React.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Framer Motion"]
+  },
+  {
+    category: "Backend",
+    items: ["Node.js", "REST APIs", "WebSockets", "Socket.io"]
+  },
+  {
+    category: "Database & Tools",
+    items: ["MongoDB", "Git", "GitHub", "Postman", "Figma"]
+  },
+  {
+    category: "Computer Vision",
+    items: ["OpenCV", "NumPy", "Image Processing", "Lane Detection"]
+  }
 ];
 
 const Skills = () => {
