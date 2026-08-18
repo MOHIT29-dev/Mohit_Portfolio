@@ -4,14 +4,14 @@ const Experience = () => {
     return (
         <section className="py-32 px-8 border-t border-white/10">
             <div className="max-w-4xl mx-auto">
-                <motion.h2
-                    className="text-sm font-light text-gray-500 uppercase tracking-widest mb-16"
+                <motion.h1
+                    className="text-2xl md:text-3xl font-light text-gray-500 uppercase tracking-widest mb-16"
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                 >
                     Experience & Competencies
-                </motion.h2>
+                </motion.h1>
 
                 <div className="space-y-16">
                     <motion.div

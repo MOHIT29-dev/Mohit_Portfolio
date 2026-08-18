@@ -45,7 +45,7 @@ const Projects = () => {
         <section id="projects" className="py-32 px-8 bg-black relative" onMouseMove={handleMouseMove}>
             <div className="max-w-6xl mx-auto">
                 <motion.h2
-                    className="text-sm font-light text-gray-500 uppercase tracking-widest mb-16"
+                    className="text-2xl md:text-3xl font-bold text-gray-500 uppercase tracking-widest mb-16"
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
