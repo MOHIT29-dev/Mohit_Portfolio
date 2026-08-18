@@ -17,8 +17,8 @@ const Resume = () => {
                     </motion.h2>
 
                     <motion.a
-                        href="/Mohit_Kumar_Resume.pdf"
-                        download="Mohit_Kumar_Resume.pdf"
+                        href="/Mohit_KumarCV.pdf"
+                        download="Mohit_KumarCV.pdf"
                         target="_blank"
                         rel="noreferrer"
                         className="mt-6 md:mt-0 flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-gray-200 transition-colors"
@@ -35,9 +35,9 @@ const Resume = () => {
                 <div id="resume-content" className="bg-zinc-950 p-8 md:p-12 rounded-2xl border border-white/10 shadow-2xl relative overflow-hidden text-white transition-colors duration-300">
                     {/* Header */}
                     <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-12 border-b border-white/10 pb-8">
-                        <img 
-                            src={profileImg} 
-                            alt="Mohit" 
+                        <img
+                            src={profileImg}
+                            alt="Mohit"
                             className="w-32 h-32 rounded-full object-cover border-2 border-white/20"
                             crossOrigin="anonymous"
                         />
@@ -101,7 +101,7 @@ const Resume = () => {
                                 ))}
                             </div>
                         </div>
-                        
+
                         {/* Certifications/Achievements */}
                         <div>
                             <h4 className="text-lg font-display uppercase tracking-widest text-gray-500 mb-4">Achievements</h4>
