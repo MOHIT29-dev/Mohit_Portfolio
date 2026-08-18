@@ -30,7 +30,7 @@ const About = () => {
                         transition={{ delay: 0.1, duration: 0.8 }}
                         className="text-gray-400"
                     >
-                        My interests lie at the intersection of frontend performance, animation-driven interfaces, and computer vision systems.
+                        I’m a full-stack developer who enjoys turning ideas into fast, engaging, and reliable digital experiences. My work spans modern frontend development, backend APIs, and computer vision, with a focus on building systems that are both visually polished and technically robust.
                     </motion.p>
 
                     <motion.p
@@ -40,7 +40,7 @@ const About = () => {
                         transition={{ delay: 0.2, duration: 0.8 }}
                         className="text-xl md:text-2xl text-white font-light mt-8"
                     >
-                        I build performant, interactive web experiences and intelligent computer vision systems, taking ownership from debugging to final delivery.
+                        From crafting responsive interfaces and interactive animations to developing Python APIs, testing integrations with Postman, and building computer vision solutions, I work across the entire development cycle. I enjoy solving complex problems, optimizing performance, and taking projects from the first line of code to a finished, production-ready experience.
                     </motion.p>
                 </div>
             </div>
