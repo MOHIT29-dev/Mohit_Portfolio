@@ -3,28 +3,27 @@ import { motion, useMotionValue, useSpring } from 'framer-motion';
 
 const projects = [
     {
-        title: "Lane-Aware Trajectory Prediction",
-        category: "Computer Vision",
-        description: "Real-time lane detection and trajectory prediction for autonomous vehicles.",
-        tools: "Python, OpenCV, NumPy",
-        color: "bg-blue-900"
-    },
-    {
-       title: "Real-Time Bus Tracking System",
-       category: "Full Stack",
-       description: "Full-stack real-time bus tracking system with live vehicle updates and low-latency communication.",
-       tools: "React, Node.js, Socket.io, WebSockets",
-       color: "bg-purple-900",
-       link: "https://github.com/MOHIT29-dev/bus-tracker"
-    },
-    {
-        title: "Portfolio Website",
-        category: "Design & Dev",
-        description: "Minimalist portfolio showcasing projects and skills.",
-        tools: "React, Tailwind, Framer Motion",
-        color: "bg-zinc-800",
-        link: "https://github.com/MOHIT29-dev/Mohit_Portfolio"
-    }
+    title: "Lane-Aware Trajectory Prediction",
+    category: "Autonomous Systems",
+    description: "Real-time lane detection and trajectory prediction for autonomous vehicles.",
+    tools: "Python, OpenCV, NumPy",
+    color: "bg-blue-900"
+},
+{
+    title: "Real-Time Bus Tracking System",
+    category: "Real-Time Systems",
+    description: "Full-stack real-time bus tracking system with live vehicle updates and low-latency communication.",
+    tools: "React, Node.js, Socket.io, WebSockets",
+    color: "bg-purple-900",
+    link: "https://github.com/MOHIT29-dev/bus-tracker"
+},
+{
+    title: "Portfolio Website",
+    category: "Frontend Engineering",
+    description: "Minimalist portfolio showcasing projects and skills.",
+    tools: "React, Tailwind, Framer Motion",
+    color: "bg-zinc-800"
+}
 ];
 
 const Projects = () => {

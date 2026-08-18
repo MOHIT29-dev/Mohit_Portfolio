@@ -73,10 +73,12 @@ const Resume = () => {
                                     <p className="text-gray-300">Developed real-time lane detection and trajectory prediction systems for autonomous vehicles.</p>
                                 </div>
                                 <div>
-                                    <h5 className="text-xl font-medium">Oculto - Interactive Web Experience</h5>
-                                    <p className="text-sm text-gray-500 mb-2">Frontend | GSAP, Shery.js, HTML/CSS</p>
-                                    <p className="text-gray-300">Created a high-performance, Cuberto-inspired interactive website featuring magnetic cursor interactions and complex animations.</p>
-                                </div>
+    <h5 className="text-xl font-medium">Real-Time Bus Tracking System</h5>
+    <p className="text-sm text-gray-500 mb-2">Full Stack | React, Node.js, Socket.io, WebSockets</p>
+    <p className="text-gray-300">
+        Built a full-stack real-time bus tracking system with live vehicle updates and low-latency communication using WebSockets and an event-driven client-server architecture.
+    </p>
+</div>
                             </div>
                         </div>
 
@@ -86,7 +88,7 @@ const Resume = () => {
                             <div>
                                 <h5 className="text-xl font-medium">Jaypee University of Information Technology</h5>
                                 <p className="text-gray-400">B.Tech in Computer Science and Engineering (2022 – 2026)</p>
-                                <p className="text-gray-500 mt-1">GPA: 7.67 / 10.0</p>
+                                <p className="text-gray-500 mt-1">GPA: 7.83 / 10.0</p>
                             </div>
                         </div>
 
@@ -94,7 +96,7 @@ const Resume = () => {
                         <div>
                             <h4 className="text-lg font-display uppercase tracking-widest text-gray-500 mb-4">Skills</h4>
                             <div className="flex flex-wrap gap-2">
-                                {["C++", "C", "Python", "JavaScript", "SQL", "React", "Tailwind CSS", "GSAP", "Framer Motion", "Node.js", "MongoDB", "Git", "OpenCV"].map(skill => (
+                                {["C++", "C", "Python", "JavaScript", "SQL", "React", "Tailwind CSS", "Node.js", "MongoDB", "Git", "OpenCV"].map(skill => (
                                     <span key={skill} className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300">
                                         {skill}
                                     </span>
@@ -102,14 +104,41 @@ const Resume = () => {
                             </div>
                         </div>
 
-                        {/* Certifications/Achievements */}
-                        <div>
-                            <h4 className="text-lg font-display uppercase tracking-widest text-gray-500 mb-4">Achievements</h4>
-                            <div>
-                                <h5 className="text-xl font-medium">DSA Problem Solving</h5>
-                                <p className="text-gray-400 mt-1">Actively solving complex algorithmic problems and optimizing performance in various coding challenges.</p>
-                            </div>
-                        </div>
+                        {/* Certifications / Achievements */}
+<div>
+    <h4 className="text-lg font-display uppercase tracking-widest text-gray-500 mb-4">
+        Certifications & Achievements
+    </h4>
+
+    <div className="space-y-6">
+        <div>
+            <h5 className="text-xl font-medium">
+                Machine Learning Foundation
+            </h5>
+            <p className="text-gray-400 mt-1">
+                Certified by Infosys Springboard with foundational knowledge of machine learning concepts and techniques.
+            </p>
+        </div>
+
+        <div>
+            <h5 className="text-xl font-medium">
+                Explore Machine Learning Using Python
+            </h5>
+            <p className="text-gray-400 mt-1">
+                Completed practical machine learning training using Python, covering core concepts and implementation techniques.
+            </p>
+        </div>
+
+        <div>
+            <h5 className="text-xl font-medium">
+                Real-Time System Development
+            </h5>
+            <p className="text-gray-400 mt-1">
+                Built real-time applications using WebSockets and event-driven communication with a focus on performance and scalability.
+            </p>
+        </div>
+    </div>
+</div>
                     </div>
                 </div>
             </div>
